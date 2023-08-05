@@ -1,21 +1,16 @@
-import React from "react";
-import classes from "./MealsSummary.module.css"
+import classes from './MealsSummary.module.css';
 
 const MealsSummary = () => {
   return (
     <section className={classes.summary}>
-      <h2>Your meal summary is here</h2>
+      <h2>Delicious Food, Delivered To You</h2>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
-        cumque incidunt architecto, temporibus doloribus vitae, nam voluptas
-        voluptatibus suscipit tenetur ad quod alias aliquid nemo iste tempora
-        quos sunt beatae.
+        Choose your favorite meal from our broad selection of available meals
+        and enjoy a delicious lunch or dinner at home.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-        laboriosam dolore maiores ad delectus dolorum provident, cupiditate sit
-        facilis, vitae quaerat nisi sapiente soluta quam aspernatur neque
-        aliquid reprehenderit iure?
+        All our meals are cooked with high-quality ingredients, just-in-time and
+        of course by experienced chefs!
       </p>
     </section>
   );
